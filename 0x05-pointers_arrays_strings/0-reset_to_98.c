@@ -1,11 +1,19 @@
-#include "main.h"
+#include <stdio.h>
+
+void reset_to_98(int *);
 
 /**
- * reset_to_98 - update the value of n to 98
- * @n: input
- * Return: n
+ * main - Check the code
+ *
+ * Return: Always 0
  */
-void reset_to_98(int *n)
+int main(void)
 {
-	*n = 98;
+	int n;
+
+	n = 402;
+	printf("%d\n", n);
+	reset_to_98(&n);
+	printf("%d\n", n);
+	return (0);
 }
