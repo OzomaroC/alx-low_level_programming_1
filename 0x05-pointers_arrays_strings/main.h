@@ -1,5 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * prototypes files
+ * import form here
+ */
+#include <stdlib.h>
 
 void reset_to_98(int *n);
 void swap_int(int a, int b);
@@ -12,5 +17,6 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *strcpy(char *dest, char *src);
 int _putchar(char c);
+int _atol(char *s);
 
 #endif

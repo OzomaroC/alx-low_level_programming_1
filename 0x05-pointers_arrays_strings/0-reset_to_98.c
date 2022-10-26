@@ -1,19 +1,12 @@
+#include "main.h"
 #include <stdio.h>
 
-void reset_to_98(int *);
-
 /**
- * main - Check the code
- *
- * Return: Always 0
+ * reset_to_98 - Take a pointer and update it to 98
+ * @n: a pointer
+ * Return: void, basically nothing is returned
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-
-	n = 402;
-	printf("%d\n", n);
-	reset_to_98(&n);
-	printf("%d\n", n);
-	return (0);
+	*n = 98;
 }
